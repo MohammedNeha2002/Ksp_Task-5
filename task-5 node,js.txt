@@ -1,0 +1,37 @@
+let a=23 
+let aNewVariable="Neha"
+console.log(a);
+console.log(aNewVariable);
+let c=10;
+let d=20;
+console.log(c+d);
+console.log(c-d);
+console.log(c*d);
+console.log(c/d);
+console.log(c%d);
+let x=10;
+console.log(x +=5); 
+console.log(x -=4); 
+console.log(x *=2); 
+console.log(x %=3); 
+console.log(x /=5); 
+console.log(a==c); 
+console.log(a!=c); 
+console.log(a>=c); 
+console.log(a<=c); 
+u="Mohammed "
+v="Neha"
+console.log(u.length); 
+console.log(u.toUpperCase());
+console.log(u.toLowerCase()); 
+console.log(u.concat(" ",v)); 
+q="      hello world     ";
+console.log(q.trim());
+w="apple,banana,carrot ";
+console.log(w.slice(6)); 
+console.log(w.slice(6,13));
+console.log(w.substr(6,12)); 
+z="she was preety";
+console.log(z.replace("was","is")); 
+p="i like elephants .elephants are huge in size";
+console.log(p.replaceAll("elephants","whales"));
